@@ -8,6 +8,13 @@ Built with **React.js, Node.js, Express.js, and MySQL**, the application provide
 
 ---
 
+## 📸 Preview
+
+<p align="center">
+  <img src="screenshots/employeehub.png" alt="EmployeeHub Preview" width="900">
+</p>
+---
+
 ## ✨ Features
 
 - 👤 Manage employee records
