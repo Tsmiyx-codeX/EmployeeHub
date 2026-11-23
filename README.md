@@ -1,16 +1,59 @@
-# React + Vite
+# 👥 EmployeeHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 💼 Simple. Efficient. Employee Management.
 
-Currently, two official plugins are available:
+EmployeeHub is a full-stack Employee Management System designed to make managing employee records simple, organized, and efficient.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with **React.js, Node.js, Express.js, and MySQL**, the application provides a clean interface for managing employee information while connecting the frontend with a backend REST API.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 👤 Manage employee records
+- ➕ Add employee details
+- ✏️ Update employee information
+- 🗑️ Delete employee records
+- 📋 View employee data
+- 🔗 REST API integration
+- 🗄️ MySQL database connectivity
+- ⚡ Fast and responsive React interface
+- 🎨 Simple and user-friendly design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| ⚛️ React.js | Frontend |
+| 🟢 Node.js | Backend runtime |
+| 🚂 Express.js | REST API |
+| 🐬 MySQL | Database |
+| 🖥️ XAMPP | Local MySQL server |
+| 📮 Postman | API testing |
+| 📝 VS Code | Development |
+| 🌐 GitHub | Version control |
+
+---
+
+## 🏗️ Project Architecture
+
+```text
+        👤 User
+          │
+          ▼
+    ⚛️ React Frontend
+          │
+          │ API Requests
+          ▼
+    🚂 Express.js
+          │
+          ▼
+      🟢 Node.js
+          │
+          ▼
+      🐬 MySQL
+          │
+          ▼
+    📊 Employee Data
